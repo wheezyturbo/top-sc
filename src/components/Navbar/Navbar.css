@@ -1,0 +1,25 @@
+
+
+/*.navbar-logo > *{
+  color:white;
+}*/
+.navbar-logo > *:hover{
+  color:white;
+  filter:brightness(0.8);
+}
+.navbar-links{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+.navbar-link{
+  color:white;
+}
+
+.navbar a.active{
+color: coral;
+}
+
+.navbar a{
+}
