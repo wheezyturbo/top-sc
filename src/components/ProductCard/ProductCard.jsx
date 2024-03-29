@@ -4,7 +4,7 @@ export default function ProductCard({ product }) {
   const link = 1;
   return (
     <Link to={`/products/${product.id}`}>
-    <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl ease-out duration-300">
+    <div className="card max-w-96 bg-base-100 shadow-xl hover:shadow-2xl ease-out duration-300">
       <figure>
         <img src={`https://via.placeholder.com/400x200`} className="object-contain" alt={product.name} />
       </figure>

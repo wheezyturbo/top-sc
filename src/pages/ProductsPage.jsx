@@ -3,9 +3,9 @@ import {data} from "../api/data";
 import ProductCard from "../components/ProductCard/ProductCard";
 export default function ProductsPage() {
   return (
-    <div className="flex justify-center">
+    <div className="md:flex justify-center mx-5">
       <div className="flex-1 mx-auto">
-      <ul className="menu bg-base-200 w-56 rounded-box sticky top-20 mt-20 mx-auto lg:block sm:hidden">
+      <ul className="menu bg-base-200 w-56 rounded-box sticky top-20 mt-20 mx-auto lg:block">
         <li>
           <h2 classname="menu-title">Filter</h2>
           <ul>
@@ -16,7 +16,7 @@ export default function ProductsPage() {
         </li>
       </ul>
     </div>
-        <div className="divider divider-horizontal">Products</div>
+        <div className="divider md:divider-horizontal">Products</div>
       <div className="flex-2">
 
       <div className=" mx-auto column-3 flex flex-wrap container gap-5 justify-evenly mt-5 w-full">
